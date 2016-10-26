@@ -1,5 +1,21 @@
+body {
+  padding: 20px;
+  background: #fafafa;
+  position: relative;
+}
+
 .main {
   width:600px;
   height:600px;
   margin:0 auto;
+}
+
+.demo-card-square.mdl-card {
+  width: 620px;
+  height: 620px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
 }
