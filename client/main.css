@@ -1,7 +1,7 @@
 body {
   padding: 20px;
   background: #fafafa;
-  position: relative;
+  /*position: relative;*/
 }
 
 .main {
@@ -10,13 +10,16 @@ body {
   margin:0 auto;
 }
 
+.mdl-card__supporting-text  {
+  color: rgba(0,0,0,0.87);
+}
+
 .demo-card-square.mdl-card {
-  width: 620px;
-  height: 620px;
+  width: 420px;
+  height: 420px;
 }
 .demo-card-square > .mdl-card__title {
-  color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
-
+  color: #ffffff;
+  background-image: url('/images/boat.jpg');
+  background-position: center;
 }
