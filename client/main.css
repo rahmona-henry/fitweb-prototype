@@ -1,22 +1,16 @@
 body {
-  padding: 20px;
+  padding: 25px;
   background: #fafafa;
-  /*position: relative;*/
 }
 
-.main {
-  width:500px;
-  height:500px;
-  margin:0 auto;
-}
 
 .mdl-card__supporting-text  {
   color: rgba(0,0,0,0.87);
 }
 
 .demo-card-square.mdl-card {
-  width: 420px;
-  height: 420px;
+  width: 320px;
+  height: 320px;
 }
 .demo-card-square > .mdl-card__title {
   color: #ffffff;
